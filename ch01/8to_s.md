@@ -27,3 +27,4 @@ puts(" t.to_s")
 puts(t.to_s)
 puts(" t.inspect")
 puts(t.inspect)
+```
