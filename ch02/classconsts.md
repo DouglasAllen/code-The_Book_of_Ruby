@@ -20,4 +20,4 @@ X::abc   # you may also access class methods with ::
 X.abc   # though a single dot also works here!
 ob = X::Y.new
 ob.xyz
-``
+```
