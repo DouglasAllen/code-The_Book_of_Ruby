@@ -14,6 +14,6 @@ t.description = "A soft, furry wotsit"
 t.value = 100
 t.id = "TH100SFW"
 t.owner = "Me"
-puts("#{t.name} is #{t.description}, it is worth $#(t.value)")
+puts("#{t.name} is #{t.description}, it is worth $#{t.value}")
 puts("it's id is #{t.id}. It is owned by #{t.owner}.")
 ```
