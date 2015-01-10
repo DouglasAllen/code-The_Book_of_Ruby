@@ -1,7 +1,7 @@
 ```ruby
 # Metaid == a few simple metaclass helper
 # (See http://whytheluckystiff.net/articles/seeingMetaclassesClearly.html.)
-
+# IMHO it should be called meta_aid.rb you know because it helps you find them Eigen things. ;-)
 class Object
   # The hidden singleton lurks behind everyone
   def metaclass; class << self; self; end; end
