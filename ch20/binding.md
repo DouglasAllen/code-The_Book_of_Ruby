@@ -2,6 +2,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # This example taken from the Ruby Kernel class library documentation
+
 def get_binding(str)
   return binding()
 end
