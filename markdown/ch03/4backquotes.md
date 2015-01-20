@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 puts( `dir` )
@@ -13,4 +14,4 @@ puts( %x{notepad} )
 puts( 'Press Enter')
 gets()
 print( "Goodbye #{%x{calc}}" )
-
+```

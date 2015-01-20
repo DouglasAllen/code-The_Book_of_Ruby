@@ -1,23 +1,25 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class MyClass
-	@@x = " x"
-	def initialize(s)
-		@mystr = s
-	end
-	def getBinding
-		return binding()
-	end
+  @@x = " x"
+  def initialize(s)
+    @mystr = s
+  end
+
+  def getBinding
+    binding()
+  end
 end
 
 class MyOtherClass 
-	@@x = " y"
-	def initialize(s)
-		@mystr = s
-	end
-	def getBinding
-		return binding()
-	end
+  @@x = " y"
+  def initialize(s)
+    @mystr = s
+  end
+
+  def getBinding
+    binding()
+  end
 end
 
 @mystr = self.inspect
@@ -32,8 +34,4 @@ puts(eval("@mystr << @@x", ob1.getBinding))
 puts(eval("@mystr << @@x", ob2.getBinding))
 puts(eval("@mystr << @@x", ob3.getBinding))
 puts(eval("@mystr << @@x", binding))
-
-
-
-
 			 

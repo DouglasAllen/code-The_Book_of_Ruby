@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # String concatenation
@@ -23,5 +24,4 @@ puts("(s3):" << s3)
 print("print(x):" , x, "\n")
 puts("puts(x):", x)
 puts("puts x.class is: " << (x.class).to_s )
-
-
+```

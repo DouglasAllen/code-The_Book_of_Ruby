@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # examples of a few string methods 
@@ -49,3 +50,4 @@ puts(s)
 puts( '--- s.split ---' )	# create an array of substrings
 s = s.split
 print(s)
+```

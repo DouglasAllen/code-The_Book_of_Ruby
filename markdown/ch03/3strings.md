@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class MyClass
@@ -38,3 +39,4 @@ puts( %q#My name is \#{ob.name} and my number is \#{ob.number}# )
 
 # a pair of braces [ and ] used as delimiters
 puts( %Q[Here's a tab\ta new line\na calculation #{2*3} and a method-call #{ob.ten}] )
+```

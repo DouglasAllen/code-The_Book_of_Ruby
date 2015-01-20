@@ -1,13 +1,13 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class X
-	def a
-		puts("method a")
-	end
+  def a
+    puts("method a")
+  end
 	
-	def addMethod( m, &block )
-		self.class.send( :define_method, m , &block )
-	end
+  def addMethod( m, &block )
+    self.class.send( :define_method, m , &block )
+  end
 end
 
 
@@ -22,7 +22,7 @@ ob.freeze # try commenting this out
 ob.addMethod( :abc ) { puts("This is the abc method") } 
 ob.abc
 if not( ob.frozen? ) then
-	ob.addMethod( :def ) { puts("'def' is not a good name for a method") } 
+  ob.addMethod( :def ) { puts("'def' is not a good name for a method") } 
 end
 ob.def # def wasn't added so this will cause an error
 

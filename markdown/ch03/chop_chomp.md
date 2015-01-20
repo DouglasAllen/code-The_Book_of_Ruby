@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # s1 includes a carriage return\linefeed
@@ -49,3 +50,4 @@ print( "> " )
 s = gets()
 puts( "You entered:" )
 puts( "'#{s}'" )
+```

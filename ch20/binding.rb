@@ -1,8 +1,9 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # This example taken from the Ruby class library documentation
+
 def getBinding(str)
-	return binding()
+  binding()
 end
 str = "hello"
 puts( eval( "str + ' Fred'" )   )                  #=> "hello Fred"

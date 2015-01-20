@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # "double-quoted" heredoc
@@ -39,3 +40,4 @@ printout( hdoc3 )
 printout( hdoc4 )
 
 printout2( hdoc4 )
+```

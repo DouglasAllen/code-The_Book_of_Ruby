@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 a = (1..10)
@@ -23,3 +24,4 @@ print(e.to_a)
 # You can't convert a floating point range to an array as the
 # total number of values is undefined
 # print(f.to_a) # this won't run!
+```
