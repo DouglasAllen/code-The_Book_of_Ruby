@@ -27,11 +27,11 @@ def
 
 
 def printout( doc )
-	puts( "'#{doc}'" )
+  puts( "'#{doc}'" )
 end
 
 def printout2( doc )
-	puts( "'#{doc.chomp}'" )
+  puts( "'#{doc.chomp}'" )
 end
 
 printout( hdoc1 )

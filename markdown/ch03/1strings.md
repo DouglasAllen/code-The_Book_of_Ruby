@@ -2,17 +2,18 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class MyClass
-	attr_accessor :name
-	attr_accessor :number
+
+  attr_accessor :name
+  attr_accessor :number
 	
-	def initialize( aName, aNumber )
-		@name	= aName
-		@number = aNumber
-	end
+  def initialize( aName, aNumber )
+    @name   = aName
+    @number = aNumber
+  end
 	
-	def ten
-		return 10
-	end
+  def ten
+    return 10
+  end
 	
 end
 

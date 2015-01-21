@@ -19,7 +19,7 @@ puts(s.length)
 puts( '--- s.reverse! ---' )	# notice final ! in method name: this changes s itself
 puts(s.reverse!)
 
-puts( '--- s.reverse ---' )		# creates new string object s
+puts( '--- s.reverse ---' )	# creates new string object s
 s = s.reverse
 puts(s)
 
@@ -43,7 +43,7 @@ puts( '--- s.insert(7, "NOT " ) ---' ) # insert substring at index
 s = s.insert(7, "NOT " )
 puts(s)
 
-puts( '--- s.squeeze ---' ) # remove repeating chars -e.g. "xx   yy" becomes "x y"
+puts( '--- s.squeeze ---' )     # remove repeating chars -e.g. "xx   yy" becomes "x y"
 s = s.squeeze
 puts(s)
 
