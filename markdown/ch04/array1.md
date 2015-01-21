@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 arr = ['a', 'b', 'c']
@@ -13,4 +14,5 @@ puts( "---display nil---" )
 puts(arr[3].inspect) 
 puts(arr[3].class) 
 p(arr[3]) 
-puts(arr[3].nil?) 
+puts(arr[3].nil?)
+``` 

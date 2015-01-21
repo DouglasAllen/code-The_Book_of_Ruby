@@ -1,7 +1,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 def array_length( anArray )
-	return anArray.length
+  anArray.length
 end
 
 a0 = [1,2,3,4,5]	

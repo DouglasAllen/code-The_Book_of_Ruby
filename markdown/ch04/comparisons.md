@@ -1,15 +1,18 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class MyArray < Array
-	include Comparable
+
+  include Comparable
 	
-	def <=> ( anotherArray )
-		self.length <=> anotherArray.length
-	end
+  def <=> ( anotherArray )
+    self.length <=> anotherArray.length
+  end
 end
 
 class Array2 < Array
-	include Comparable
+
+  include Comparable
 end
 
 myarr1 = MyArray.new([0,1,2,3])
@@ -37,3 +40,4 @@ p( arr1 == arr2 )
 p( arr3 > arr1 )
 p( arr3 <=> arr1 )
 p( arr1 <=> arr2 )
+```

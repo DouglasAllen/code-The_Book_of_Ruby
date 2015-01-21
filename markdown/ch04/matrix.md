@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # note you must 'require' matrix in order to use the
@@ -23,5 +24,4 @@ v = Vector[1,2,3,4,5]
 v2 = Vector[6,7,8,9,10]
 m4 = Matrix.columns([v,v2])
 p( m4 )
-
-
+```

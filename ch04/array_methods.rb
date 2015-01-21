@@ -9,15 +9,10 @@ arr2 = [1,2,3,4,5,6,7,8,9]
 arr3 = ['h','e','l','l','o',' ',nil,'w','o','r','l','d']
 
 # an array containing several more levels of 'sub arrays'
-multiarr = [
-			['one','two','three','four'],		
-			[1,2,3,4],
-				["I",
-					["wandered","lonely","as",
-						["a","cloud"]
-					]
-				]
-		   ]										
+multiarr = [['one','two','three','four'],		
+	    [1,2,3,4],
+	    ["I", ["wandered","lonely","as", ["a","cloud"]]]
+	   ]										
 
 
 # Copies of arr1 and arr3 so that we can restore their 
@@ -31,9 +26,9 @@ copy_of_arr3 = arr3.clone
 # numbered tests below
 @linenum = 0
 def wr( exp )
-    @linenum += 1
-	print( "(\##{@linenum}) " )
-	p( exp )
+  @linenum += 1
+  print( "(\##{@linenum}) " )
+  p( exp )
 end
 
 

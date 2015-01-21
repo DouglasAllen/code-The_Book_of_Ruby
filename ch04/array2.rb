@@ -1,13 +1,13 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 def hello
-	return "hello world"
+  "hello world"
 end
 	
-x = [1+2, hello,  `dir`]				# array containing an expression, a methodcall and a string
-puts(x.inspect)							# Note: if your are not using Windows, you may need to 
-										# change `dir` to a command that is understood by your
-										# operating system
+x = [1+2, hello,  `dir`]	# array containing an expression, a methodcall and a string
+puts(x.inspect)			# Note: if your are not using Windows, you may need to 
+				# change `dir` to a command that is understood by your
+				# operating system
 
 y = %w( this is an array of strings )
 puts(y.inspect)
@@ -26,10 +26,10 @@ a[0]= Array.new(2,'hello')
 a[1]= Array.new(2,'world')
 puts(a.inspect)
 
-a = [	[1,2,3,4],
-		[5,6,7,8],
-		[9,10,11,12],
-		[13,14,15,16] ]
+a = [[1,2,3,4],
+     [5,6,7,8],
+     [9,10,11,12],
+     [13,14,15,16] ]
 puts(a.inspect)
 
 a = Array.new([1,2,3]) 
@@ -39,7 +39,7 @@ puts(a.inspect)
 # putting it in round brackets, you must leave a space between
 # 'new' and the opening square bracket.
 # This works:
-#		a = Array.new [1,2,3]
+#  a = Array.new [1,2,3]
 # This doesn't!
-#		a = Array.new[1,2,3]
+#  a = Array.new[1,2,3]
 		

@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 arr1=[1,2,3,4,5]
@@ -25,3 +26,4 @@ p(arr5<=>arr4)	#4
 p(arr7<=>arr6)	#5
 p(arr8<=>arr7)	#6
 p(arr9<=>arr8)  #7
+```

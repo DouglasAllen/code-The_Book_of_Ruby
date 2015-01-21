@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 arr = ['h','e','l','l','o',' ','w','o','r','l','d']
@@ -23,3 +24,4 @@ puts
 
 p( arr[0,5] )
 p( arr[0..4] )
+```
