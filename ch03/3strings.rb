@@ -1,17 +1,18 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class MyClass
-	attr_accessor :name
-	attr_accessor :number
+
+  attr_accessor :name
+  attr_accessor :number
 	
-	def initialize( aName, aNumber )
-		@name	= aName
-		@number = aNumber
-	end
+  def initialize( aName, aNumber )
+    @name   = aName
+    @number = aNumber
+  end
 	
-	def ten
-		return 10
-	end
+  def ten
+    10
+  end
 	
 end
 
@@ -20,8 +21,8 @@ puts( %Q$My name is #{ob.name} and my number is #{ob.number}$ )
 
 # new lines used as delimiters
 puts( %Q
-Here's a tab\ta new line\na calculation #{2*3} and a method-call #{ob.ten}
- )
+      Here's a tab\ta new line\na calculation #{2*3} and a method-call #{ob.ten}
+    )
 
 # tabs used as delimiters 
 puts( %Q	My name is #{ob.name} and my number is #{ob.number}	 )

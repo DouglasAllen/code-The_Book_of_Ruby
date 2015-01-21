@@ -16,7 +16,7 @@ EODOC
 hdoc3 = <<-EODOC
 3) I wandered lonely as a #{"cloud".upcase},
 That floats on high o'er vale and hill...
-	EODOC
+EODOC
 
 # heredoc with 'reserved word' end marker
 hdoc4 = <<def
@@ -26,11 +26,11 @@ def
 
 
 def printout( doc )
-	puts( "'#{doc}'" )
+  puts( "'#{doc}'" )
 end
 
 def printout2( doc )
-	puts( "'#{doc.chomp}'" )
+  puts( "'#{doc.chomp}'" )
 end
 
 printout( hdoc1 )
