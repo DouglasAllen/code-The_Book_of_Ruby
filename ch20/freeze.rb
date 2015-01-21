@@ -3,7 +3,7 @@
 a = [1,2,3]
 a.freeze
 if !(a.frozen?) then
-	a << [4,5,6]
+  a << [4,5,6]
 end
 
 p( a )

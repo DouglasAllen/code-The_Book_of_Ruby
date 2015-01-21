@@ -1,12 +1,13 @@
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # Show string representations of various objects
 # using the to_s method
 
 class Treasure
-      def initialize( aName, aDescription )
-        @name         = aName
-        @description  = aDescription
-      end
+  def initialize( aName, aDescription )
+    @name         = aName
+    @description  = aDescription
+  end
 # This time we won't override to_s so the Treasure object
 # will use the default to_s method...
 end

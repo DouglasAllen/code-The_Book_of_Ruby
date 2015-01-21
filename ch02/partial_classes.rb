@@ -1,32 +1,37 @@
 class A
-	def a
-		puts( "a" )
-	end
+
+  def a
+    puts( "a" )
+  end
 end
 
 class B < A
-	def ba1
-		puts( "ba1" )
-	end
+
+  def ba1
+    puts( "ba1" )
+  end
 end
 
 class A
-	def b
-		puts( "b" )
-	end
+
+  def b
+    puts( "b" )
+  end
 end
 
 class B < A
-	def ba2
-		puts( "ba2" )
-	end
+
+  def ba2
+    puts( "ba2" )
+  end
 end
 
 
 class Array
-	def gribbit
-		puts( "gribbit" )
-	end
+
+  def gribbit
+    puts( "gribbit" )
+  end
 end
 
 ob = B.new

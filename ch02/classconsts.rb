@@ -1,17 +1,19 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class X
-	A = 10
+
+  A = 10
 	
-	class Y
-		def xyz
-			puts( "goodbye" )
-		end
-	end
+  class Y
+
+    def xyz
+      puts( "goodbye" )
+    end
+  end
 	
-	def self.abc
-		puts("hello")
-	end
+  def self.abc
+    puts("hello")
+  end
 end
 
 puts( X::A )

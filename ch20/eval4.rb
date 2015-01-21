@@ -7,8 +7,8 @@ puts( "Enter 'q' to quit." )
 input = ""
 
 until input == "q"
-	input = gets().chomp()
-	if input != "q" then eval( input ) end
+  input = gets().chomp()
+  if input != "q" then eval( input ) end
 end
 
 # At the prompt try entering:

@@ -4,8 +4,8 @@ module X
 end
 
 class Y
-	@@x = 10
-	include X
+  @@x = 10
+  include X
 end
 
 X::module_eval{ define_method(:xyz){ puts("hello" ) } }

@@ -1,14 +1,14 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class Treasure
-      def initialize( aName, aDescription )
-        @name         = aName
-        @description  = aDescription
-      end
+  def initialize( aName, aDescription )
+    @name         = aName
+    @description  = aDescription
+  end
       
-      def to_s # override default to_s method
-           "The #{@name} Treasure is #{@description}\n"
-      end
+  def to_s # override default to_s method
+    "The #{@name} Treasure is #{@description}\n"
+  end
 end
 
 

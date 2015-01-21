@@ -1,9 +1,9 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class X
-	def y
-		puts( "ymethod" )
-	end
+  def y
+    puts( "ymethod" )
+  end
 end
 
 

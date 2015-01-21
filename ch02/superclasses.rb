@@ -18,6 +18,6 @@ puts( x )
 # now climb back through the hierarchy to
 # display all ancestor classes of ob
 begin
-	x = x.superclass
-	puts(x.inspect) 
+  x = x.superclass
+  puts(x.inspect) 
 end until x == nil 

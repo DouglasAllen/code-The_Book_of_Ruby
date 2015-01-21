@@ -1,26 +1,26 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class X
-	def method_missing( methodname, *args )
-		puts( "Class #{self.class} does not understand: #{methodname}( #{args.inspect} )" )
-	end	
+  def method_missing( methodname, *args )
+    puts( "Class #{self.class} does not understand: #{methodname}( #{args.inspect} )" )
+  end	
 end
 
 class Y < X	
 	
-	def aaa
-		puts( "aaa method" )
-	end
+  def aaa
+    puts( "aaa method" )
+  end
 	
-	remove_method( :aaa )
+  remove_method( :aaa )
 end
 
 class Z < Y
-	def method_missing( methodname, *args )
-		super
-		puts( "Now creating method #{methodname}( )" )
-		self.class.send( :define_method, methodname, lambda{ |*args| puts( args.inspect) } )
-	end	
+  def method_missing( methodname, *args )
+    super
+    puts( "Now creating method #{methodname}( )" )
+    self.class.send( :define_method, methodname, lambda{ |*args| puts( args.inspect) } )
+  end	
 end
 
 

@@ -1,30 +1,34 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class Class1
-	def initialize( a, b, c )
-		@a = a
-		@b = b
-		@c = c
-	end
+
+  def initialize( a, b, c )
+    @a = a
+    @b = b
+    @c = c
+  end
 end
 
 
 class Class2 < Class1
-	def initialize( a, b, c, d, e, f )
-		super( a, b, c )		
-	end
+
+  def initialize( a, b, c, d, e, f )
+    super( a, b, c )		
+  end
 end
 
 class Class3 < Class1
-	def initialize( a, b, c )
-		super		
-	end
+
+  def initialize( a, b, c )
+    super		
+  end
 end
 
 class Class4 < Class1
-	def initialize( a, b, c)
-		# super()		#<= no args. This would be an error
-	end
+
+  def initialize( a, b, c)
+    # super() #<= no args. This would be an error
+  end
 end
 
 

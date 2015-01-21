@@ -1,26 +1,28 @@
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # define a class and create some objects
 
-
 class Thing
-		def set_name( aName )
-			@name = aName
-		end
+
+  def set_name( aName )
+    @name = aName
+  end
 		
-		def get_name
-			return @name
-		end
+  def get_name
+    return @name
+  end
 end
 
 class Treasure
-      def initialize( aName, aDescription )
-        @name         = aName
-        @description  = aDescription
-      end
+
+  def initialize( aName, aDescription )
+    @name         = aName
+    @description  = aDescription
+  end
       
-      def to_s # override default to_s method
-           "The #{@name} Treasure is #{@description}\n"
-      end
+  def to_s # override default to_s method
+    "The #{@name} Treasure is #{@description}\n"
+  end
 end
 
 thing1 = Thing.new

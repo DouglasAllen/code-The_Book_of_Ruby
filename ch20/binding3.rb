@@ -23,7 +23,7 @@ class MyOtherClass
 end
 
 @mystr = self.inspect
-# @@x = " some other value"
+@@x = " some other value"
 
 ob1 = MyClass.new("ob1 string")
 ob2 = MyClass.new("ob2 string")

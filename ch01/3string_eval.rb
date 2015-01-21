@@ -1,5 +1,5 @@
 def showname
-   return "Fred"
+  "Fred"
 end
   
 puts "Hello #{showname}"
