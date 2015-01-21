@@ -1,8 +1,10 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # reading and writing attributes
 
 class Thing
+
   attr_reader :description
   attr_writer :description
   attr_writer :name
@@ -23,6 +25,7 @@ class Thing
 end
 
 class Treasure < Thing # Treasure descends from Thing
+
   attr_accessor :value
   def initialize( aName, aDescription )
     super( aName, aDescription )

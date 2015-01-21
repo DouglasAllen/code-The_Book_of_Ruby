@@ -2,6 +2,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class Class1
+
   def initialize( a, b, c )
     @a = a
     @b = b
@@ -10,18 +11,21 @@ class Class1
 end
 
 class Class2 < Class1
+
   def initialize( a, b, c, d, e, f )
     super( a, b, c )
   end
 end
 
 class Class3 < Class1
+
   def initialize( a, b, c )
     super	
   end
 end
 
 class Class4 < Class1
+
   def initialize( a, b, c)
     # super() #<= no args. This would be an error
   end

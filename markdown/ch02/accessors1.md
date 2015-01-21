@@ -1,9 +1,11 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # illustrates how to read and write instance variables
 # using accessor methods
 
 class Thing
+
   def initialize( aName, aDescription )
     @name	= aName
     @description	= aDescription

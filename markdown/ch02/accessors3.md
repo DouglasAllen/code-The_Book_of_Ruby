@@ -1,8 +1,10 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # more on reading and writing attributes
 
 class Thing
+
   attr_reader :name, :description
   attr_writer(:name, :description)
   attr_accessor(:value, :id, :owner)

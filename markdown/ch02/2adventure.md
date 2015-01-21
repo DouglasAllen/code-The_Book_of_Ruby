@@ -1,12 +1,14 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # illustrates how to creating descendent objects
 # reading and writing attributes
 # object (instance) variables
 # also introduces class variables
-# Thing
 
+# Thing
 class Thing
+
   @@num_things = 0 # class variable
   attr_reader( :name, :description )
   attr_writer( :description )
@@ -28,11 +30,13 @@ end
 
 # Room
 class Room < Thing
+
   # TODO: Add Room-specific behaviour here...
 end
 
 # Treasure
 class Treasure < Thing
+
   attr_reader :value
   attr_writer :value
   def initialize( aName, aDescription, aValue )
@@ -43,6 +47,7 @@ end
 
 # Map
 class Map
+
   # @rooms will be an array - an ordered list
   # of Room objects
   

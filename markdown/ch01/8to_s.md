@@ -1,9 +1,11 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # Show string representations of various objects
 # using the to_s method
 
 class Treasure
+
   def initialize( aName, aDescription )
     @name = aName
     @description = aDescription

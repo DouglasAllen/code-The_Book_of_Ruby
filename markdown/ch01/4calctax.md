@@ -1,5 +1,6 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # Calculate tax on a fixed sum
 
 subtotal = 100.00

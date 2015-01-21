@@ -2,6 +2,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class X
+
   A = 10
   
   class Y

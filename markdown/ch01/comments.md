@@ -7,6 +7,7 @@ puts( "hello" ) # this is also a comment
   This is a
   multiline
   comment
+You don't have to indent it like I did.
 =end
 
 puts( "goodbye" )

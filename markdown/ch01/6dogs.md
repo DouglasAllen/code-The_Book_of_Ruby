@@ -1,8 +1,10 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # Create classes and use instance variables such as @myname
 
 class Dog
+
   def set_name( aName )
     @myname = aName
   end
@@ -17,6 +19,7 @@ class Dog
 end
 
 class Cat
+
   def set_name( aName )
     @myname = aName
   end

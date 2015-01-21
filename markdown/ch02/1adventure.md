@@ -2,6 +2,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class Thing
+
   def initialize( aName, aDescription )
     @name = aName
     @description = aDescription
@@ -25,6 +26,7 @@ class Thing
 end
 
 class Treasure < Thing # Treasure descends from Thing
+
   def initialize( aName, aDescription, aValue )
     super( aName, aDescription )
     @value = aValue

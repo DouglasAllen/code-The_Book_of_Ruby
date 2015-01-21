@@ -2,6 +2,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class Thing # ultimate ancestor of all the other classes defined below
+
   def initialize( aName, aDescription )
     @name = aName
     @description = aDescription
@@ -15,6 +16,7 @@ class Thing # ultimate ancestor of all the other classes defined below
 end
 
 class Thing2 < Thing
+
   def initialize( aName, aDescription )
     super	# use super keyword on its own to pass all incoming arguments to matching ancestor method
     # super( aName, aDescription ) ## <- in other words, this would be equivalent to the line above
@@ -30,6 +32,7 @@ class Thing2 < Thing
 end
 
 class Thing3 < Thing2
+
   def initialize( aName, aDescription, aValue )
     super( aName, aDescription )
     @value = aValue
@@ -44,6 +47,7 @@ class Thing3 < Thing2
 end
 
 class Thing4 < Thing3
+
   def aMethod
     puts("Thing4.aMethod: #{self.inspect}\n\n")
   end

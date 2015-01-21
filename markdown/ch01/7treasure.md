@@ -1,8 +1,10 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # define a class and create some objects
 
 class Thing
+
   def set_name( aName )
     @name = aName
   end
@@ -13,6 +15,7 @@ class Thing
 end
 
 class Treasure
+
   def initialize( aName, aDescription )
     @name = aName
     @description = aDescription

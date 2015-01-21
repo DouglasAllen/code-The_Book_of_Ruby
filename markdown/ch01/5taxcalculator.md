@@ -1,5 +1,6 @@
 ```Ruby
 # The Book of Ruby - http://www.sapphiresteel.com
+
 # Prompt user for a sum then calculate tax on that sum
 
 taxrate = 0.175
