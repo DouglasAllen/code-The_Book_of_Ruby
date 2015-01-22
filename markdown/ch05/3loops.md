@@ -62,7 +62,7 @@ loop {
       puts(arr[i])
       i+=1
       if (i == arr.length) then 
-	break 
+        break 
       end
      }
 ```

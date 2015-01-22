@@ -19,7 +19,7 @@ def snore
 end
 
 def sleep
-   puts("z" * $hours_asleep ) 
+  puts("z" * $hours_asleep ) 
 end
 
 while tired do sleep
