@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # --- Example 1 ---
@@ -17,3 +18,4 @@ for x in [1, "two", [3,4,5] ] do puts( x ) end
 
 # ii) each
 [1, "two", [3,4,5] ].each do |x| puts( x ) end  
+```

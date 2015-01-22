@@ -2,13 +2,13 @@
 
 puts( '--- loop #1 ---' )
 for i in [1,2,3]  do 
-	puts( i )
+  puts( i )
 end
 
 puts( '--- loop #3 ---' )
 # 'do' is optional when for loop is 'multi-line'
 for s in ['one','two','three'] #do 
-	puts( s )
+  puts( s )
 end
 
 

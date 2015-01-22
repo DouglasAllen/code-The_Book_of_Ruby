@@ -6,6 +6,7 @@ p( x )
 arr = [1,2,3,4,5]
 y = arr.collect{ |i| i }
 p( y )
+
 z = arr.collect{ |i| i * i }
 p( z )
 

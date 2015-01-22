@@ -1,36 +1,37 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
-class MyCollection 
+class MyCollection
+ 
   include Enumerable
 
-
-	def initialize( someItems )
-		@items = someItems
-	end
+  def initialize( someItems )
+    @items = someItems
+  end
 	
-	def each
-		@items.each{ |i| yield i }
-	end
+  def each
+    @items.each{ |i| yield i }
+  end
 	
-	def min	
-		@items.to_a.min{|a,b| a.length <=> b.length }
-	end
+  def min	
+    @items.to_a.min{|a,b| a.length <=> b.length }
+  end
 
-	def max 		
-		@items.to_a.max{|a,b| a.length <=> b.length }
-	end
+  def max 		
+    @items.to_a.max{|a,b| a.length <=> b.length }
+  end
+
 end
 
 		
 things = MyCollection.new(['z','xy','defgh','ij','abc','klmnopqr'])
 
-h = {'one'=>'for sorrow',
-	 'two'=>'for joy',
-	 'three'=>'for a girl',
-	 'four'=>'for a boy',
-	 'five'=>'for sorrow',
-	 'six'=>'for gold',
-	 'seven'=>'for a secret never to be told' }  
+h = {'one'  =>'for sorrow',
+     'two'  =>'for joy',
+     'three'=>'for a girl',
+     'four' =>'for a boy',
+     'five' =>'for sorrow',
+     'six'  =>'for gold',
+     'seven'=>'for a secret never to be told' }  
 	 
 h_keys = MyCollection.new( h.keys )
 h_vals = MyCollection.new( h.values )

@@ -1,19 +1,16 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
-class MyCollection 
+class MyCollection
+ 
   include Enumerable
 
-
-	def initialize( someItems )
-		@items = someItems
-	end
+  def initialize( someItems )
+    @items = someItems
+  end
 	
-	def each
-		@items.each{ |i| 
-			yield( i )
-		}
-	end
-	
+  def each
+    @items.each{ |i| yield( i )	}
+  end	
 
 end
 

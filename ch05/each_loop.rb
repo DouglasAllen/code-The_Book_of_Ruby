@@ -2,12 +2,12 @@
 
 puts( '--- loop #1 ---' )
 [1,2,3].each  do |i|
-	puts( i )
+  puts( i )
 end
 
 puts( '--- loop #3 ---' )
 ['one','two','three'].each do |s|
-	puts( s )
+  puts( s )
 end
 
 

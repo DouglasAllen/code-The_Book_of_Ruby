@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 puts( "do..end" )
@@ -11,5 +12,4 @@ puts( "{..}" )
 [[1,2,3],[3,4,5],[6,7,8]].each{	|a,b,c| 
   puts( "#{a}, #{b}, #{c}" ) 
 }
-
-
+```

@@ -4,8 +4,8 @@ puts( "starting 1st while loop" )
 # This executes 0 or more times
 i = 10
 while i < 10
-	puts(i)
-	i += 1
+  puts(i)
+  i += 1
 end
 puts( "1st while loop ended" )
 
@@ -13,8 +13,8 @@ i = 10
 # This executes 1 or more times
 puts( "\nstarting 2nd while loop" )
 begin 
-	puts(i)
-	i += 1
+  puts(i)
+  i += 1
 end while i < 10
 puts( "2nd while loop ended" )
 

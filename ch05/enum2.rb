@@ -1,9 +1,9 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
-h = {'one'=>'for sorrow',
-	 'two'=>'for joy',
-	 'three'=>'for a girl',
-	 'four'=>'for a boy'} 
+h = {'one'  =>'for sorrow',
+     'two'  =>'for joy',
+     'three'=>'for a girl',
+     'four' =>'for a boy'} 
 
 
 y = h.collect{ |i| i }

@@ -1,9 +1,10 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
-h = {'one'=>'for sorrow',
-	 'two'=>'for joy',
-	 'three'=>'for a girl',
-	 'four'=>'for a boy'} 
+h = {'one'  =>'for sorrow',
+     'two'  =>'for joy',
+     'three'=>'for a girl',
+     'four' =>'for a boy'} 
 
 
 y = h.collect{ |i| i }
@@ -20,3 +21,4 @@ p( h.max )
 
 p( h.min{|a,b| a[0].length <=> b[0].length } )
 p( h.max{|a,b| a[0].length <=> b[0].length } )
+```
