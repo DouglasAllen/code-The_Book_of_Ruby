@@ -35,7 +35,7 @@ end until arr[i] == nil
 # for
 puts( "\nfor..in..end" )
 for s in arr
-	puts( s )
+  puts( s )
 end
 
 # each
