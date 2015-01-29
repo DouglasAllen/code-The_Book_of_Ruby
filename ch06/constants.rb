@@ -10,6 +10,6 @@ puts( RUBY_VERSION  )
 RUBY_VERSION = "2.5.6"
 X = "Hello world"
 if( DEBUG ) then
-	puts( Object.const_get( :RUBY_VERSION ) )
-	puts( Object.const_get( :X ) )
+  puts( Object.const_get( :RUBY_VERSION ) )
+  puts( Object.const_get( :X ) )
 end

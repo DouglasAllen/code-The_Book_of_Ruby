@@ -1,14 +1,14 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 def dayIs( aDay )
-	working_overtime = true
-	if aDay == 'Saturday' or (aDay == 'Sunday' and not working_overtime)
-		daytype = 'holiday'
-		puts( "Hurrah!" )
-	else
-		daytype = 'working day'
-	end
-	return daytype
+  working_overtime = true
+  if aDay == 'Saturday' or (aDay == 'Sunday' and not working_overtime)
+    daytype = 'holiday'
+    puts( "Hurrah!" )
+  else
+    daytype = 'working day'
+  end
+  return daytype
 end
 
 
