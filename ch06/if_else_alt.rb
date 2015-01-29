@@ -1,10 +1,10 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 def dayIs( aDay )
-	(aDay == 'Saturday' or aDay == 'Sunday') ?	
-		daytype = 'weekend' :
-		daytype = 'weekday'	
-	return daytype
+  (aDay == 'Saturday' or aDay == 'Sunday') ?	
+    daytype = 'weekend' :
+    daytype = 'weekday'	
+  return daytype
 end
 
 

@@ -1,12 +1,12 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 def dayIs( aDay )
-	if aDay == 'Saturday' or aDay == 'Sunday'
-		daytype = 'weekend'
-	else
-		daytype = 'weekday'
-	end
-	return daytype
+  if aDay == 'Saturday' or aDay == 'Sunday'
+    daytype = 'weekend'
+  else
+    daytype = 'weekday'
+  end
+  return daytype
 end
 
 day1 = "Monday"

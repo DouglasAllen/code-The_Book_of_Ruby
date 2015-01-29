@@ -3,12 +3,12 @@
 # The unless test here is equivalent to...
 # if !(aDay == 'Saturday' or aDay == 'Sunday')
 def dayIs( aDay )
-	unless aDay == 'Saturday' or aDay == 'Sunday'
-		daytype = 'weekday'
-	else
-		daytype = 'weekend'
-	end
-	return daytype
+  unless aDay == 'Saturday' or aDay == 'Sunday'
+    daytype = 'weekday'
+  else
+    daytype = 'weekend'
+  end
+  return daytype
 end
 
 
