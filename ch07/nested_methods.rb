@@ -1,19 +1,19 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 class X
-	def outer_x
-		print( "x:" )
-		def nested_y
-			print("ha! ")
-		end	
-		
-		def nested_z
-			print( "z:" )
-			nested_y
-		end
-		
-		nested_y
-		nested_z
-	end
+  def outer_x
+    print( "x:" )
+    def nested_y
+      print("ha! ")
+    end	
+
+    def nested_z
+      print( "z:" )
+      nested_y
+    end
+
+    nested_y
+    nested_z
+  end
 end
 
 

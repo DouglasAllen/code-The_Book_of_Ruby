@@ -1,7 +1,7 @@
 # The Book of Ruby - http://www.sapphiresteel.com
 
 class MyClass
-			
+
 end
 
 class MyOtherClass < MyClass
@@ -9,10 +9,10 @@ class MyOtherClass < MyClass
 end
 
 def showFamily( aClass )	
-	if (aClass != nil) then	
-		puts( "#{aClass} :: about to recurse with aClass.superclass = #{aClass.superclass.inspect}" )			
-		showFamily( aClass.superclass )
-	end
+  if (aClass != nil) then	
+    puts( "#{aClass} :: about to recurse with aClass.superclass = #{aClass.superclass.inspect}" )			
+      showFamily( aClass.superclass )
+  end
 end
 
 # Try uncommenting these classes one by one to trace back through
