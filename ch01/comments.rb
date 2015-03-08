@@ -1,11 +1,10 @@
+# ch01 The Book of Ruby - http://www.sapphiresteel.com
 # this is a comment
 
-puts( "hello" ) # this is also a comment
+puts('hello') # this is also a comment
 
-=begin
- This is a 
- multiline
- comment
-=end
+#  This is a
+#  multiline
+#  comment
 
-puts( "goodbye" )
+puts('goodbye')

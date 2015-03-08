@@ -1,34 +1,46 @@
-# The Book of Ruby - http://www.sapphiresteel.com
-# Create classes and use instance variables such as @myname
+# ch01 The Book of Ruby - http://www.sapphiresteel.com
 
+# Create Dog class and use instance variables such as @myname
 class Dog
-   
-  def set_name( aName )
+  # Rubocop says:
+  # Use attr_writer to define trivial writer methods.
+  # Do not prefix writer method names with set_.
+  #
+  def set_name(aName)
     @myname = aName
   end
-	
+  # Rubocop says:
+  # Use attr_reader to define trivial reader methods.
+  # Do not prefix reader method names with get_.
+  #
   def get_name
-    return @myname
+    @myname
   end
-	
+
   def talk
-    return 'woof!'
+    'woof!'
   end
 end
 
-
+# Create Cat class and use instance variables such as @myname
 class Cat
-  
-  def set_name( aName )
+  # Rubocop says:
+  # Use attr_writer to define trivial writer methods.
+  # Do not prefix writer method names with set_.
+  #
+  def set_name(aName)
     @myname = aName
   end
-	
+  # Rubocop says:
+  # Use attr_reader to define trivial reader methods.
+  # Do not prefix reader method names with get_.
+  #
   def get_name
-    return @myname
+    @myname
   end
-	
+
   def talk
-    return 'miaow!'
+    'miaow!'
   end
 end
 
@@ -40,11 +52,10 @@ yourcat = Cat.new
 someotherdog = Dog.new
 
 # --- Name them
-mydog.set_name( 'Fido' )
-yourdog.set_name( 'Bonzo' )
-mycat.set_name( 'Tiddles' )
-yourcat.set_name( 'Flossy' )
-
+mydog.set_name('Fido')
+yourdog.set_name('Bonzo')
+mycat.set_name('Tiddles')
+yourcat.set_name('Flossy')
 
 # --- Get their names and display them
 # Dogs

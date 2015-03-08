@@ -1,7 +1,0 @@
-```ruby
---- 
-- sally
-- agnes
-- john
-
-```

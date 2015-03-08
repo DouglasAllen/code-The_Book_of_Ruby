@@ -1,5 +1,0 @@
-```ruby
-module PostsHelper
-end
-
-```

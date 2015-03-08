@@ -1,21 +1,30 @@
-# The Book of Ruby - http://www.sapphiresteel.com
+# ch01 The Book of Ruby - http://www.sapphiresteel.com
 
-localvar = "hello"
-$globalvar = "goodbye" 
+localvar = 'hello'
+# rubocop says
+# Do not introduce global variables.
+$globalvar = 'goodbye'
 
 def amethod
   localvar = 10
-  puts( localvar )
-  puts( $globalvar )
+  puts(localvar)
+  # rubocop says
+  # Do not introduce global variables.
+  puts($globalvar)
 end
 
+# rubocop says
+# Use snake_case for method names.
 def anotherMethod
   localvar = 500
-  $globalvar = "bonjour"
-  puts( localvar )
-  puts( $globalvar )
+  # rubocop says
+  # Do not introduce global variables.
+  $globalvar = 'bonjour'
+  puts(localvar)
+  # rubocop says
+  # Do not introduce global variables.
+  puts($globalvar)
 end
-
 
 amethod
 puts
@@ -23,5 +32,7 @@ anotherMethod
 puts
 amethod
 puts
-puts( localvar )
-puts( $globalvar )
+puts(localvar)
+# rubocop says
+# Do not introduce global variables.
+puts($globalvar)

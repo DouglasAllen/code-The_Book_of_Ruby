@@ -1,7 +1,0 @@
-```ruby
---- 
-- fred
-- bert
-- mary
-
-```
