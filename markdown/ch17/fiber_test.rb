@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 f = Fiber.new do
@@ -16,3 +17,4 @@ puts('c')
 puts(f.resume)
 puts('d')
 puts(f.resume) # dead fiber called
+```

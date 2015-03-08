@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 require 'thread'
@@ -19,3 +20,4 @@ end
 
 somethreads.each(&:join)
 puts($i)
+```

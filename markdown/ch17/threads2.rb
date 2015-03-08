@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 words = %w(hello world goodbye mars)
@@ -20,3 +21,4 @@ endTime = Time.new
 puts('End: %10.9f' % endTime.to_f)
 totalTime = endTime - startTime
 puts('Total Time: %10.9f' % totalTime.to_f)
+```

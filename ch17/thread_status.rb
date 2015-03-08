@@ -8,7 +8,7 @@ puts(Thread.new { Thread.stop }.inspect)
 puts(Thread.new do
   for i in (1..100) do
     i += 1
-    end
+  end
 end.inspect)
 puts("Main thread: #{Thread.main.inspect}")
 

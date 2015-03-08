@@ -1,3 +1,4 @@
+```ruby
 # Example taken from Ruby 1.9 documentation
 
 a = Thread.new { fail('die now') }
@@ -11,3 +12,4 @@ p b.status                #=> "sleep"
 p c.status                #=> false
 p d.status                #=> "aborting"
 p Thread.current.status   #=> "run"
+```

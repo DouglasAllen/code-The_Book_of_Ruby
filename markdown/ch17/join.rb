@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 words = %w(hello world goodbye mars)
@@ -10,3 +11,4 @@ end.join
 Thread.new do
   numbers.each { |number| puts(number) }
 end.join
+```

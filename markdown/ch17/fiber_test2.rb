@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 fiber = Fiber.new do |first|
@@ -7,3 +8,4 @@ end
 puts fiber.resume(10)
 puts fiber.resume(14)
 puts fiber.resume(18)
+```

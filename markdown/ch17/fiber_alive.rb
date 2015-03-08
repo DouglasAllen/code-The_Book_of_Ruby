@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 require 'fiber'
@@ -23,3 +24,4 @@ if f.alive?
 else
   puts('Error: Call to dead fiber')
 end
+```

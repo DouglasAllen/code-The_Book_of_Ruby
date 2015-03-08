@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 def fac(n)
@@ -31,3 +32,4 @@ endTime = Time.new
 puts('End: %10.5f' % endTime.to_f)
 totalTime = endTime - startTime
 puts('Total Time: %10.5f' % totalTime.to_f)
+```

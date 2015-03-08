@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 f = Fiber.new do |s|
@@ -19,3 +20,4 @@ f2.resume('hi')
 puts('world')
 f2.resume
 f.resume
+```

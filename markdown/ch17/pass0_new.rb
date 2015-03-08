@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # Try commenting/uncommenting all the calls to Thread.pass
@@ -15,3 +16,4 @@ end
 a.join
 b.join
 puts(s)
+```

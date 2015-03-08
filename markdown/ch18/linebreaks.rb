@@ -1,7 +1,8 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 x = (10 +
-(2 * 4))
+     (2 * 4))
 puts(x)
 
 x = (10
@@ -9,5 +10,6 @@ x = (10
 puts(x)
 
 x = (10 \
-+ (2 * 4))
+     + (2 * 4))
 puts(x)
+```

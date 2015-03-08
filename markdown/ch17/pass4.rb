@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 # Ruby 1.8 only
@@ -25,3 +26,4 @@ t2.run
 t1.join
 t2.join
 puts(arr)
+```

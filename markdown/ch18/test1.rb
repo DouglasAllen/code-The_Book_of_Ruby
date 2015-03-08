@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 require 'test/unit'
@@ -26,3 +27,4 @@ class MyTest < Test::Unit::TestCase
     assert_equal(1000, TestClass.new(100).getVal)
   end
 end
+```

@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 $i = 0
@@ -14,3 +15,4 @@ end
 
 somethreads.each(&:join)
 puts($i)
+```

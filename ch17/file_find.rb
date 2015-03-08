@@ -30,6 +30,6 @@ puts($dirs.sort)
 printf("Total: #{$totalsize} bytes,
                #{$totalsize / 1024}K,
                %0.02fMB\n\n",
-       "#{$totalsize / 1_048_576.0}")
+"#{$totalsize / 1_048_576.0}")
 puts("Total files: #{$files.size},
       Total directories: #{$dirs.size}")

@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 a = Thread.new do
@@ -12,3 +13,4 @@ b = Thread.new do
 end
 a.join
 b.join
+```

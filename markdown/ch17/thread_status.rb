@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 puts("Main thread: #{Thread.main.inspect}")
@@ -8,7 +9,7 @@ puts(Thread.new { Thread.stop }.inspect)
 puts(Thread.new do
   for i in (1..100) do
     i += 1
-    end
+  end
 end.inspect)
 puts("Main thread: #{Thread.main.inspect}")
 
@@ -27,3 +28,4 @@ Thread.critical = true
 thread3 = Thread.new { sleep }.kill
 puts("thread3.status: #{thread3.status},
       thread3.inspect #{thread3.inspect}")
+```

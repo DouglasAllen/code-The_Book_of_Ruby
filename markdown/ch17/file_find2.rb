@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 require 'find'
@@ -42,6 +43,7 @@ t2.join
 printf("\nTotal: #{$totalsize} bytes,
        #{$totalsize / 1024}K,
        %0.02fMB\n\n",
-       "#{$totalsize / 1_048_576.0}")
+"#{$totalsize / 1_048_576.0}")
 puts("Total file size: #{$filesize},
       Total directory size: #{$dirsize}")
+```

@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 s = 'start '
@@ -17,3 +18,4 @@ end
 a.join
 b.join
 puts("#{s} end")
+```

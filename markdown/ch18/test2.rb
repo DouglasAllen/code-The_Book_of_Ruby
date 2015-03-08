@@ -1,3 +1,4 @@
+```ruby
 # The Book of Ruby - http://www.sapphiresteel.com
 
 require './buggy'
@@ -24,3 +25,4 @@ class MyTest < Test::Unit::TestCase
     @game.endgame
   end
 end
+```

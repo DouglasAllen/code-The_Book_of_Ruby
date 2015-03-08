@@ -1,1 +1,3 @@
+```ruby
 p(Thread.main)
+```
