@@ -15,4 +15,5 @@ subtotal = 0.0 if subtotal < 0.0
 
 tax = subtotal * taxrate
 puts "Tax on $#{subtotal} is $#{tax}, so grand total is $#{subtotal + tax}"
+
 ```

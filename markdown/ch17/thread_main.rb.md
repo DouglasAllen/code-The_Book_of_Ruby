@@ -1,0 +1,4 @@
+```ruby
+p(Thread.main)
+
+```

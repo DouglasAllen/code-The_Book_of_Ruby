@@ -21,4 +21,5 @@ c = Treasure.new('ring', 'a glittery gold thing')
 p(a)
 p(b)
 p(c)
+
 ```

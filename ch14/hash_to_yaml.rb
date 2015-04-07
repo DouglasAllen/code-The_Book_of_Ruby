@@ -2,13 +2,13 @@
 
 require 'yaml'
 
-hsh =	{	friend1: 'mary',
-        friend2: 'sally',
-        friend3: 'gary',
-        morefriends: {	chap_i_met_in_a_bar: 'simon',
+hsh =	{friend1: 'mary',
+         friend2: 'sally',
+         friend3: 'gary',
+         morefriends: {	chap_i_met_in_a_bar: 'simon',
                        girl_next_door: 'wanda'
-                }
-    }
+                      }
+      }
 
 y_hsh = hsh.to_yaml
 new_hsh = YAML.load(y_hsh)

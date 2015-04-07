@@ -12,8 +12,8 @@ class CD
 end
 
 arr1 =	[['The Groovesters', 'Groovy Tunes', 12],
-        ['Dolly Parton', 'Greatest Hits', 38]
-       ]
+         ['Dolly Parton', 'Greatest Hits', 38]
+        ]
 
 arr2 = [CD.new('The Beasts', 'Beastly Tunes', 22),
         CD.new('The Strolling Bones', 'Songs For Senior Citizens', 38)

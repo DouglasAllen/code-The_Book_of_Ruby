@@ -37,4 +37,5 @@ puts(localvar)
 # rubocop says
 # Do not introduce global variables.
 puts($globalvar)
+
 ```

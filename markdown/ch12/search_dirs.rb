@@ -1,1 +1,0 @@
-puts($LOAD_PATH)
