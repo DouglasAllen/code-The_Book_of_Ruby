@@ -7,6 +7,8 @@ It's marked all over the place in the code where to get it.
 
 http://www.sapphiresteel.com/IMG/zip/book-of-ruby.zip
 
+I have converted it all to markdown as well for a nicer view here.
+
 For chapter 20 expansion
 
   http://viewsourcecode.org/why/index.html
